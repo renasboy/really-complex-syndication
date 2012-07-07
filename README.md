@@ -10,8 +10,8 @@ $ git clone https://github.com/renasboy/really-complex-syndication
 $ cd really-complex-syndication
 $ chmod 755 rcs
 $ ./rcs
-<code>
-<pre>
+</code>
+</pre>
 
 The idea behind the really complex syndication is to extract links to create
 news feeds for sources websites that do not provide a RSS (really simple 
