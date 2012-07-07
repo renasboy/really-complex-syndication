@@ -1,0 +1,6 @@
+#!/bin/bash
+
+url=http://news.ycombinator.com
+link_regex='<td class="title"><a href="([^"]+)">([^<]+)</a><span'
+
+wget -q -O - $url | egrep -o "$link_regex" | sed -r "s/${link_regex////\/}/<a href=\"\1\">\2<\/a>/"
